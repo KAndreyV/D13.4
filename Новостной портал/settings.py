@@ -232,7 +232,7 @@ LOGGING = {
         },
     },
     'handlers': {
-        'console': {
+        'console_debug': {
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
             'formatter': 'console_debug_format',
